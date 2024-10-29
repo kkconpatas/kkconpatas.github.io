@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oli</title>
+    <script src="aframe.min.js"></script>
+    <script src="aframe-ar.js"></script>
+</head>
+<body>
+    <a-scene embedded arjs>
+        <a-marker preset="hiro">
+            <a-box radius="2" 
+            material=
+            "color:red;"
+            depth="1"
+            height="1"
+            widht="1"
+            position="0 -0.5 0"
+            rotation="0 0 0">
+            </a-box>
+
+            <a-image src="michi.jpg" width=1; height=1; rotation="-90 0 180"></a-image>
+        </a-marker>
+        <a-marker preset="kanji">
+            <a-sphere src="michi.jpg">
+
+            </a-sphere>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>
